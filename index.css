@@ -1,0 +1,136 @@
+.main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.border-app {
+    margin: 20px 100px;
+    /* от верхнего и нижнего края отступы */
+    border: solid 2px black;
+    padding: 50px 100px 50px 100px;
+    border-radius: 5px;
+}
+
+.player {
+    margin-right: 0px;
+    border: solid 2px black;
+}
+
+.style-winner {
+    box-shadow: 0 0 10px 8px #80c59a;
+}
+
+.style-lose {
+    box-shadow: 0 0 10px 8px #c58091;
+}
+
+.style-draw {
+    box-shadow: 0 0 10px 8px #8580c5;
+}
+
+.card-player-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-player-btn {
+    padding: 0px;
+}
+
+.card-body {
+    background-color: azure;
+}
+
+.header-border-profile {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+.img-responsive {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-vs {
+    height: 100px;
+    width: 100px;
+}
+
+.plyer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-player-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battle-vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-player-header {
+    text-align: center;
+    font-style: italic;
+}
+
+.number-tablo-player {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.battle-board {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.win-inscription {
+    text-align: center;
+    color: #5e9c76;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: comic sans ms;
+    text-shadow: #94cf9a 1px 1px 2px;
+}
+
+.lose-inscription {
+    text-align: center;
+    color: #9c5e6c;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: comic sans ms;
+    text-shadow: #cf9494 1px 1px 2px;
+}
+
+.draw-inscription {
+    text-align: center;
+    color: #6f5e9c;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: comic sans ms;
+    text-shadow: #9a94cf 1px 1px 2px;
+}
+
+.btn-danger {
+    margin-top: 20px;
+}
+
+.text-instruction {
+    font-size: 18px;
+}
